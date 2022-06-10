@@ -1,0 +1,24 @@
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 10xp;
+
+        .bx {
+            font-size: 60px;
+        }
+
+    }
+
+    button:hover {
+        transform: scale(1.2);
+    }
+
+}
+
